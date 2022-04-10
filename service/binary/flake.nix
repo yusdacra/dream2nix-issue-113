@@ -1,13 +1,3 @@
-
-@yusdacra Thanks for picking this up!
-
-I did try this out and I'm still getting the same error (could not find crate ...) and not the one you're describing.
-Note that a workspace is not being used - just path deps like this:
-
-[dependencies]
-serde = { version = "^1.0", features = ["derive"] }
-serde_json = { version = "^1.0" }
-private_lib = { path = "../../lib/private_lib" }
 {
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=release-21.11";
