@@ -1,5 +1,5 @@
 {
-  inputs.dream2nix.url = "github:yusdacra/dream2nix/feat/cargo-lock-subpackages";
+  inputs.dream2nix.url = "github:yusdacra/dream2nix/fix/rust-fixes";
   outputs = { self, dream2nix }@inputs:
     let
       dream2nix = inputs.dream2nix.lib.init {

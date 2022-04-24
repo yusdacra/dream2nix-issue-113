@@ -51,16 +51,16 @@
         "pre-commit-hooks": "pre-commit-hooks"
       },
       "locked": {
-        "lastModified": 1649602405,
-        "narHash": "sha256-JKMv3QVdbOX3Jr4eOyC6OUQPJ0Dt81SBBrUSjO6QrDU=",
+        "lastModified": 1650836092,
+        "narHash": "sha256-ynjFheYRi5ubnYojbX6UNYmGgd2oBxJygusDQJBzGaE=",
         "owner": "yusdacra",
         "repo": "dream2nix",
-        "rev": "1cca528ec61fac6e2797448df352cdb2796036cf",
+        "rev": "fd7eff4722b90c4bbcfaa2bde498aab7cbcde5ed",
         "type": "github"
       },
       "original": {
         "owner": "yusdacra",
-        "ref": "feat/cargo-lock-subpackages",
+        "ref": "fix/rust-fixes",
         "repo": "dream2nix",
         "type": "github"
       }
